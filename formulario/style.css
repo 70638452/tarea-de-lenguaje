@@ -1,0 +1,119 @@
+/* header */
+header{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+}
+header.abajo{
+    background: #fff;
+    padding: 15px 20px;
+}
+header .logo{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    color:#192d6c;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color:#192d6c;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+header.abajo .logo,
+header.abajo ul li a{
+    color:#192d6c;
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    background: url(./hero4.jpg);
+    width: 100%;
+}
+
+.form-register {
+    width: 500px;
+    background: #24303c;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid hsl(210, 50%, 71%);
+    font-family: "calibri";
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .button {
+    width: 100%;
+    background: #1f53c5;
+    border: 5px;
+    padding: 12px; 
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
